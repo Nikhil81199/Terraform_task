@@ -1,0 +1,51 @@
+
+
+resource "aws_s3_bucket" "example-0011131" {
+  bucket = "test-0992"
+
+  tags = {
+    Name        = "nikhil-765"
+    Environment = "Dev"
+  }
+} 
+
+
+resource "aws_s3_bucket" "example-0011123" {
+  bucket = "test-0903"
+
+  tags = {
+    Name        = "nikhil-81"
+    Environment = "Dev"
+  }
+} 
+
+
+
+resource "aws_s3_bucket" "example-00111224" {
+  bucket = "test-0904"
+
+  tags = {
+    Name        = "nikhil-82"
+    Environment = "Dev"
+  }
+} 
+
+
+
+
+resource "aws_s3_bucket" "example-00111225" {
+  bucket = "test-0905"
+
+  tags = {
+    Name        = "nikhil-83"
+    Environment = "Dev"
+  }
+} 
+
+
+
+resource "aws_s3_bucket" "example-00133226" {
+  bucket = "test-0986"
+
+  tags = {
+    Name        = "nikhil-786"
